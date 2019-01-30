@@ -58,7 +58,7 @@ class CircleOne extends Component {
           y="-500"
           onClick={this.clickCircleOne}
         >
-          Circle One
+          1
         </text>
         <CircleTwo />
         <CircleThree />

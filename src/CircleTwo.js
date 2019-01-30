@@ -50,7 +50,7 @@ class CircleTwo extends Component {
           y="-300"
           onClick={this.clickCircleTwo}
         >
-          Circle Two
+          2
         </text>
       </>
     );

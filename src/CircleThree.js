@@ -51,7 +51,7 @@ class CircleThree extends Component {
           y="-300"
           onClick={this.clickCircleThree}
         >
-          Circle Three
+          3
         </text>
       </>
     );
