@@ -39,11 +39,11 @@ class FNotes extends Component {
     clearTimeout(this.turnOff);
   }
   playNote = (note) => {
-    console.log('in cNotes', note);
+    console.log('in FNotes', note);
 
     this.setState({
       [note]: '#224900'
-    })
+    }) 
   }
   render() {
     return (

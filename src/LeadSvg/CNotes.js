@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import Soundfont from 'soundfont-player';
 
 class CNotes extends Component {
   state = {
@@ -14,12 +15,20 @@ class CNotes extends Component {
     // when the state is updated, 
     // a timeout is triggered to switch it back off
     if (this.state.c4Sh === '#930E00') {
+      // Soundfont.instrument(new AudioContext(), 'steel_drums')
+      //   .then(function (steel_drums) {
+      //     steel_drums.play(61)
+      //   })
       this.turnOff = setTimeout(() => {
         this.setState(() => ({
           c4Sh: 'red',
         }))
       }, 500);
     } else if (this.state.c4 === '#930E00') {
+      // Soundfont.instrument(new AudioContext(), 'steel_drums')
+      //   .then(function (steel_drums) {
+      //     steel_drums.play('C4')
+      //   })
       this.turnOff = setTimeout(() => {
         this.setState(() => ({
           c4: 'red',
