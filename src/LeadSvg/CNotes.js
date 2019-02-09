@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
+// import { Howl, Howler } from 'howler';
+
 // import Soundfont from 'soundfont-player';
+
+// var sound = new Howl({
+//   src: ['']
+// });
 
 class CNotes extends Component {
   state = {
@@ -86,6 +92,12 @@ class CNotes extends Component {
             ry="160.529"
             onClick={() => this.playNote('c4Sh')}
           />
+          <text 
+            transform="matrix(1 0 0 1 477 252.3555)" 
+            className="note-text"
+          >
+            C&#9839;4
+          </text>
         </g>
         <g id="c4">
           <ellipse
@@ -97,6 +109,12 @@ class CNotes extends Component {
             ry="123.312"
             onClick={() => this.playNote('c4')}
           />
+          <text 
+            transform="matrix(1 0 0 1 602.1226 1286.7002)" 
+            className="note-text"
+          >
+            C4
+          </text>
         </g>
         <g id="c5Sh">
           <ellipse
@@ -108,6 +126,12 @@ class CNotes extends Component {
             ry="103.233"
             onClick={() => this.playNote('c5Sh')}
           />
+          <text 
+            transform="matrix(1 0 0 1 486.4126 518.5122)" 
+            className="note-text"
+          >
+            C&#9839;5
+          </text>
         </g>
         <g id="c5">
           <ellipse
@@ -119,6 +143,12 @@ class CNotes extends Component {
             ry="106.963"
             onClick={() => this.playNote('c5')}
           />
+          <text 
+            transform="matrix(1 0 0 1 734.1602 1020.189)" 
+            className="note-text"
+          >
+            C5
+          </text>
         </g>
         <g id="c6Sh">
           <ellipse
@@ -129,6 +159,12 @@ class CNotes extends Component {
             ry="56"
             onClick={() => this.playNote('c6Sh')}
           />
+          <text 
+            transform="matrix(1 0 0 1 554.4858 699.8228)" 
+            className="note-text"
+          >
+            C&#9839;6
+          </text>
         </g>
         <g id="c6">
           <ellipse
@@ -139,6 +175,12 @@ class CNotes extends Component {
             ry="56"
             onClick={() => this.playNote('c6')}
           />
+          <text 
+            transform="matrix(1 0 0 1 759.3057 817.0781)" 
+            className="note-text"
+          >
+            C6
+          </text>
         </g>
       </>
     );

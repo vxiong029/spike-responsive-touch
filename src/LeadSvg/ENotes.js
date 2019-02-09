@@ -73,6 +73,12 @@ class ENotes extends Component {
             ry="111.421" 
             onClick={() => this.playNote('e4')}
           />
+          <text 
+            transform="matrix(1 0 0 1 1204.7637 518.1304)" 
+            className="note-text"
+          >
+            E4
+          </text>
         </g>
         <g id="e4F">
           <ellipse
@@ -84,6 +90,12 @@ class ENotes extends Component {
             ry="152.941"
             onClick={() => this.playNote('e4F')}
           />
+          <text 
+            transform="matrix(1 0 0 1 132.1367 662.1494)" 
+            className="note-text"
+          >
+            E&#9837;4
+          </text>
         </g>
         <g id="e5">
           <ellipse
@@ -95,6 +107,12 @@ class ENotes extends Component {
             ry="66.307"
             onClick={() => this.playNote('e5')}
           />
+          <text 
+            transform="matrix(1 0 0 1 926.3613 532.2759)" 
+            className="note-text"
+          >
+            E5
+          </text>
         </g>
         <g id="e5F">
           <ellipse
@@ -106,6 +124,12 @@ class ENotes extends Component {
             ry="68.307"
             onClick={() => this.playNote('e5F')}
           />
+          <text 
+            transform="matrix(1 0 0 1 383.4116 806.0781)" 
+            className="note-text"
+          >
+            E&#9837;5
+          </text>
         </g>
         <g id="e6">
           <ellipse
@@ -116,6 +140,12 @@ class ENotes extends Component {
             ry="51"
             onClick={() => this.playNote('e6')}
           />
+          <text 
+            transform="matrix(1 0 0 1 683.3599 619.2402)" 
+            className="note-text"
+          >
+            E6
+          </text>
         </g>
         <g id="e6F">
           <circle
@@ -125,6 +155,12 @@ class ENotes extends Component {
             r="52.5"
             onClick={() => this.playNote('e6F')}
           />
+          <text 
+            transform="matrix(1 0 0 1 610.6685 826.9692)" 
+            className="note-text"
+          >
+            E&#9837;6
+          </text>
         </g>
       </>
     );

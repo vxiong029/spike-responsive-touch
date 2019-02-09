@@ -8,6 +8,10 @@
   height: 67%;
 }
 
+.note-text {
+  font-size: 60px;
+}
+
 .circle-three {
   background-color: green;
 }

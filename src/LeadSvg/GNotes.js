@@ -59,6 +59,12 @@ class GNotes extends Component {
             ry="138.12"
             onClick={() => this.playNote('g4')}
           />
+          <text 
+            transform="matrix(1 0 0 1 904.3438 1247.9365)" 
+            className="note-text"
+          >
+            G4
+          </text>
         </g>
         <g id="g4Sh">
           <ellipse
@@ -70,6 +76,12 @@ class GNotes extends Component {
             ry="137.298"
             onClick={() => this.playNote('g4Sh')}
           />
+          <text 
+            transform="matrix(1 0 0 1 235.7378 401.5112)" 
+            className="note-text"
+          >
+            G&#9839;4
+          </text>
         </g>
         <g id="g5">
           <ellipse
@@ -81,6 +93,12 @@ class GNotes extends Component {
             ry="84.637"
             onClick={() => this.playNote('g5')}
           />
+          <text 
+            transform="matrix(1 0 0 1 880.9434 965.9702)" 
+            className="note-text"
+          >
+            G5
+          </text>
         </g>
         <g id="g5Sh">
           <ellipse
@@ -92,6 +110,12 @@ class GNotes extends Component {
             ry="80.365"
             onClick={() => this.playNote('g5Sh')}
           />
+          <text 
+            transform="matrix(1 0 0 1 376.7754 649.2583)" 
+            className="note-text"
+          >
+            G&#9839;5
+          </text>
         </g> 
       </>
     );

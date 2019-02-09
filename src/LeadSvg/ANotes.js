@@ -45,6 +45,12 @@ class ANotes extends Component {
             ry="131.926"
             onClick={() => this.playNote('a4')}
           />
+          <text 
+            transform="matrix(1 0 0 1 1240.9463 792.9326)" 
+            className="note-text"
+          >
+            A4
+          </text>
         </g>
         <g id="a5">
           <circle
@@ -54,6 +60,12 @@ class ANotes extends Component {
             r="61.5"
             onClick={() => this.playNote('a5')}
           />
+          <text 
+            transform="matrix(1 0 0 1 999.8164 668.6768)" 
+            className="note-text"
+          >
+            A5
+          </text>
         </g>
       </>
     );

@@ -59,6 +59,12 @@ class FNotes extends Component {
             ry="110.209"
             onClick={() => this.playNote('f4Sh')}
           />
+          <text 
+            transform="matrix(1 0 0 1 786.3242 199.3096)" 
+            className="note-text"
+          >
+            F&#9839;4
+          </text>
         </g>
         <g id="f4">
           <ellipse
@@ -70,6 +76,12 @@ class FNotes extends Component {
             ry="111.309"
             onClick={() => this.playNote('f4')}
           />
+          <text 
+            transform="matrix(1 0 0 1 317.4292 1152.3359)" 
+            className="note-text"
+          >
+            F4
+          </text>
         </g>
         <g id="f5Sh">
           <ellipse
@@ -81,6 +93,12 @@ class FNotes extends Component {
             ry="86.213"
             onClick={() => this.playNote('f5Sh')}
           />
+          <text 
+            transform="matrix(1 0 0 1 641.9409 445.439)" 
+            className="note-text"
+          >
+            F&#9839;5
+          </text>
         </g>
         <g id="f5">
           <ellipse
@@ -92,6 +110,12 @@ class FNotes extends Component {
             ry="62.346"
             onClick={() => this.playNote('f5')}
           />
+          <text 
+            transform="matrix(1 0 0 1 567.7222 1003.4253)" 
+            className="note-text"
+          >
+            F5
+          </text>
         </g>
       </>
     );

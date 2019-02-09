@@ -52,6 +52,12 @@ class ANotes extends Component {
             ry="151.596"
             onClick={() => this.playNote('d4')}
           />
+          <text 
+            transform="matrix(1 0 0 1 1140.6904 1061.0615)" 
+            className="note-text"
+          >
+            D4
+          </text>
         </g>
         <g id="d5">
           <ellipse
@@ -63,6 +69,12 @@ class ANotes extends Component {
             ry="100.371"
             onClick={() => this.playNote('d5')}
           />
+          <text 
+            transform="matrix(1 0 0 1 951.1436 823.9507)" 
+            className="note-text"
+          >
+            D5
+          </text>
         </g>
         <g id="d6">
           <circle
@@ -72,6 +84,12 @@ class ANotes extends Component {
             r="54.5"
             onClick={() => this.playNote('d6')}
           />
+          <text 
+            transform="matrix(1 0 0 1 799.9971 682.3135)" 
+            className="note-text"
+          >
+            D6
+          </text>
         </g>
       </>
     );
